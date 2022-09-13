@@ -1,0 +1,36 @@
+/* Smartphone Portrait */ 
+
+:root{
+    --blue: rgb(0, 255, 255) ;
+}
+
+
+
+body{
+    background-color: var(--blue);
+}
+
+
+
+/*Smartphone landscape*/
+
+@media (min-width: 576px) {
+    body{
+        background-color: #ff0;
+    }
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+    h1{
+        color: #0f0;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    h2{
+        color: #f00;
+    }
+}
